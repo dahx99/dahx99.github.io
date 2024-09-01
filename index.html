@@ -57,7 +57,7 @@
     <script>
         function redirectToGoogle() {
             const urlParams = new URLSearchParams(window.location.search);
-            let query = urlParams.get('form');
+            let query = urlParams.get('f');
             if (!query) {
                 alert("Veuillez utiliser le lien que vous avez reçu et réessayer, merci");
                 return;
